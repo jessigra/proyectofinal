@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<link rel="stylesheet" type="text/css" href="index.html">
+<h2 align="center">CONTACTENOS</h2>	
+</head>
+<body>
+<div>
+<p align="center">Direccion: Colon Cativa<br>Correo electronico: spboutique@gmail.com<br>Telefono: 475-3814</p>
+
+<body>
+<script language="javascript">
+function mostrar()
+{
+    var Nombre=document.getElementById("Nombre");
+    var Apellido=document.getElementById("Apellido");
+    var Telefono=document.getElementById("Telefono");
+    var Correo=document.getElementById("Correo");
+    var Mensaje=document.getElementById("Mensaje");
+
+
+
+    document.write(
+    "<table cellpadding='5' cellspacing='0' border='1'>" +
+    "<tr><td>Nombre</td><td>Apellido</td><td>Telefono</td><td>Correo</td><td>Mensaje</td></tr>"+
+    "<tr><td>"+Nombre.value+"</td><td>"+Apellido.value+"</td><td>"+Telefono.value+"</td><td>"+Correo.value+"</td><td>"+Mensaje.value+"</td></tr></table>"
+    );
+}
+</script>
+<form align="center">
+NOMBRE 
+  <input type="text" id="Nombre"/><br /><br />
+APELLIDO 
+<input type="text" id="Apellido"/><br /><br />
+TELEFONO 
+<input type="text" id="Telefono"/><br><br />
+CORREO 
+<input type="text" id="Correo"/><br><br />
+MENSAJE
+<input type="text" id="Mensaje"/><br><br />
+<input type="button" onclick="mostrar()" value="Enviar"/>
+</form>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62986.91725968768!2d-79.86614313319872!3d9.36135332193779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fab6c84f1983435%3A0x50d6f8eb0e53f691!2zQ2F0aXbDoQ!5e0!3m2!1ses!2spa!4v1606943486195!5m2!1ses!2spa" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" align="center"></iframe>
+</body>
+</html>
